@@ -1,6 +1,13 @@
 import java.util.Scanner;
 
 class Project_shannon_smith {
+    /*
+     * The policyPrice method determines the policy price
+     * @param age How old the policy holder is
+     * @param isSmoker Does the policy holder smoke
+     * @param bmi Body mass index of the policy holder
+     * @return fee Total price of the policy
+     */
     public static float policyPrice(int age, String isSmoker, double bmi) {
         float fee = 600;
 
